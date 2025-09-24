@@ -9,6 +9,8 @@
     <style>
     @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Lexend+Giga:wght@100..900&display=swap');
     </style>
+
+    <script src="js/cartela.js" defer></script>
 </head>
 <body>
     <table class="cartela">
@@ -33,91 +35,101 @@
         </thead>
         <tbody>
             <tr>
-                <td>
+                <td id="b1" onclick="Clicou(this);">
                     12
                 </td>
-                <td>
+                <td id="i1">
                     24
                 </td>
-                <td>
+                <td id="n1">
                     33
                 </td>
-                <td>
+                <td id="g1">
                     46
                 </td>
-                <td>
+                <td id="o1">
                     72
                 </td>
             </tr>
             <tr>
-                <td>
+                <td id="b2">
                     13
                 </td>
-                <td >
+                <td id="i2">
                     25
                 </td>
-                <td>
+                <td id="n2">
                     36
                 </td>
-                <td>
+                <td id="g2">
                     49
                 </td>
-                <td>
+                <td id="o2">
                     75
                 </td>
             </tr>
             <tr>
-                <td>
+                <td id="b3">
                     10
                 </td>
-                <td>
+                <td id="i3">
                     22
                 </td>
-                <td>
+                <td id="n3">
                     31
                 </td>
-                <td>
+                <td id="g3">
                     51
                 </td>
-                <td class="celula">
+                <td id="o3">
                     69
                 </td>
             </tr>
             <tr>
-                <td class="celula">
+                <td id="b4">
                     9
                 </td>
-                <td class="celula">
+                <td id="i4">
                     18
                 </td>
-                <td class="celula">
+                <td id="n4">
                     42
                 </td>
-                <td class="celula">
+                <td id="g4">
                     60
                 </td>
-                <td class="celula">
+                <td id="o4">
                     66
                 </td>
             </tr>
             <tr>
-                <td class="celula">
+                <td id="b5">
                     1
                 </td>
-                <td class="celula">
+                <td id="i5">
                     26
                 </td>
-                <td class="celula">
+                <td id="n5">
                     40
                 </td>
-                <td class="celula">
+                <td id="g5">
                     53
                 </td>
-                <td class="celula">
+                <td id="o5">
                     74
                 </td>
             </tr>
         </tbody>
     </table>
+
+    <div class="botoes">
+        <button class="btn gerar" id="gerar">
+            Gerar nova cartela
+        </button>
+
+        <button class="btn finalizar" id="finalizar">
+            Finalizar jogo
+        </button>
+    </div>
 </body>
 </html>
